@@ -1,0 +1,35 @@
+.contactanos h2{
+    margin-left: $tamanio20px;
+    color: $color-secundario;
+}
+.contacto-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-secundario;
+    margin-bottom: $tamanio50px;
+    margin-top: $tamanio50px;
+}
+
+.contacto-label{
+    font-family: $fontfamiliprimario;
+    font-size: $tamaniofontprimario;
+    padding-bottom: $tamanio20px;
+}
+
+.space-white{
+    width: $tamanio1oox100to;
+}
+
+button{
+    width: $tamanio20vh;
+    height: 5vh;
+    font-size: $tamaniofontprimario;
+    font-family: $fontfamiliprimario;
+    background-color: $color-secundario;
+    color: $color-principal;
+    border-radius: $tamanio10x100to;
+    display: flex;
+    float: right;
+    justify-content: center;
+}

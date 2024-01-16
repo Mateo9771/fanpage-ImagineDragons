@@ -1,0 +1,18 @@
+
+.error {
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-404 {
+    color: #e44d26;
+}
+
+.error p {
+    color: $color-principal;
+    font-size: 18px;
+}

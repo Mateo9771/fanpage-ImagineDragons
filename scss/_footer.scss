@@ -1,0 +1,67 @@
+footer{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: $color-principal;
+    width: $tamanio1oox100to;
+    bottom: 0%;
+    height:15vh;
+    margin-top: $tamanio20px;
+}
+.pie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: $tamanio20px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-ig img{
+    width: 30px;
+    border-radius: $tamanio20x100to;
+}
+.red-fc img{
+    width: 30px;
+    border-radius: $tamanio50x100to;
+}
+
+.red-ig :hover{
+    background-color: map-get($map: $redes, $key: instagram );    
+}
+
+.red-fc :hover{
+    background-color: map-get($map: $redes, $key: face);
+}
+
+@media screen and (max-width: 1350px) {
+ 
+    footer{
+        background-color: #333;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        color: $color-principal;
+        width: $tamanio1oox100to;
+        bottom: 0%;
+        height:20vh;
+        margin-top: $tamanio20px;
+    }
+    .pie{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+    }
+    .red-ig img{
+        width: 20px;
+        border-radius: $tamanio20x100to;
+    }
+    .red-fc img{
+        width: 20px;
+        border-radius: $tamanio50x100to;
+    }
+   }

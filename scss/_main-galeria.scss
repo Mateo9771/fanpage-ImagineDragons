@@ -1,0 +1,28 @@
+.galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10vh;
+    margin-bottom: $tamanio50px;
+    margin-top: $tamanio50px;
+    .img-galeria{
+        width:$tamanio400px;
+        height:$tamanio400px;
+    }
+    .img-galeria img{
+        border-radius: $tamanio20x100to;
+        width: $tamanio1oox100to;
+        right: $tamanio1oox100to;
+        object-fit: cover;
+    }
+}
+
+h2{
+    color: $color-secundario;
+}
+
+.img-galeria :hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}

@@ -1,0 +1,284 @@
+body h1 {
+  font-family: "Inter", sans-serif;
+  font-family: "Nerko One", cursive;
+  font-family: "Rubik", sans-serif;
+  font-family: "Shadows Into Light", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: radial-gradient(circle, #f9f8f9, #f4f2f6, #efecf3, #e8e7f0, #e0e2ee, #d9dfeb, #d2dce8, #cbd9e4, #c6d6de, #c2d3d7, #c0cfd0, #becbca);
+}
+
+nav {
+  background-color: #333;
+}
+
+.logo {
+  width: 20vh;
+}
+
+.portada {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.portada .img-portada img {
+  width: 100%;
+  border-radius: 50%;
+}
+.portada .img-portada p {
+  margin-top: 50px;
+  margin-left: 20px;
+  color: #333;
+}
+
+footer {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #f8f1f1;
+  width: 100%;
+  bottom: 0%;
+  height: 15vh;
+  margin-top: 20px;
+}
+
+.pie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red-ig img {
+  width: 30px;
+  border-radius: 20%;
+}
+
+.red-fc img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.red-ig :hover {
+  background-color: rgb(224, 85, 20);
+}
+
+.red-fc :hover {
+  background-color: rgb(0, 0, 255);
+}
+
+@media screen and (max-width: 1350px) {
+  footer {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #f8f1f1;
+    width: 100%;
+    bottom: 0%;
+    height: 20vh;
+    margin-top: 20px;
+  }
+  .pie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  .red-ig img {
+    width: 20px;
+    border-radius: 20%;
+  }
+  .red-fc img {
+    width: 20px;
+    border-radius: 50%;
+  }
+}
+.galeria {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10vh;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.galeria .img-galeria {
+  width: 400px;
+  height: 400px;
+}
+.galeria .img-galeria img {
+  border-radius: 20%;
+  width: 100%;
+  right: 100%;
+  object-fit: cover;
+}
+
+h2 {
+  color: #333;
+}
+
+.img-galeria :hover {
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+.main-bio {
+  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.021)), url(../image/discografia/banda.webp);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 120vh;
+  width: 100%;
+}
+
+.biografia {
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  color: #f8f1f1;
+  font-size: 14px;
+}
+
+.biografia p {
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 1350px) {
+  .main-bio {
+    background-image: none;
+  }
+  .biografia p {
+    font-size: 16px;
+    width: 100%;
+    color: #333;
+  }
+}
+.contactanos h2 {
+  margin-left: 20px;
+  color: #333;
+}
+
+.contacto-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.contacto-label {
+  font-family: cursive;
+  font-size: 1rem;
+  padding-bottom: 20px;
+}
+
+.space-white {
+  width: 100%;
+}
+
+button {
+  width: 20vh;
+  height: 5vh;
+  font-size: 1rem;
+  font-family: cursive;
+  background-color: #333;
+  color: #f8f1f1;
+  border-radius: 10%;
+  display: flex;
+  float: right;
+  justify-content: center;
+}
+
+.styled-table {
+  margin-top: 50px;
+  color: #333;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1rem;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px #812575;
+  height: 100vh;
+}
+
+.styled-table thead tr {
+  background-color: #812575;
+  color: #f8f1f1;
+  text-align: middle;
+}
+
+.styled-table th, .styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #812575;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: rgb(209, 203, 203);
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 1px solid #333;
+}
+
+.styled-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 678px) {
+  .content-table {
+    font-size: 10px;
+  }
+}
+.titulo {
+  color: #333;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.error {
+  color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-404 {
+  color: #e44d26;
+}
+
+.error p {
+  color: #f8f1f1;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=index.css.map */

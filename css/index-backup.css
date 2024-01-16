@@ -1,0 +1,167 @@
+body h1{
+    font-family: 'Inter', sans-serif;
+font-family: 'Nerko One', cursive;
+font-family: 'Rubik', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+}
+body{
+    background-color: #f8f1f1;
+}
+nav{
+    background-color: #333;
+}
+
+.logo{
+    width: 20vh;
+}
+
+.titulo{
+    color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.portada{
+    margin-bottom: 50px;
+    .img-portada img{
+        width: 100%;
+        border-radius: 50%;
+    }
+    .img-portada p{
+        color: #333;
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+}
+
+.galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10vh;
+    margin-bottom: 50px;
+    .img-galeria{
+        width:400px;
+        height: 400px;
+    }
+    .img-galeria img{
+        border-radius: 20%;
+        width: 100%;
+        right: 100%;
+        object-fit: cover;
+    }
+}
+
+.img-galeria :hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+@media screen and (max-width: 678px) {
+    .body-bio{
+        background-color: #312b46;
+    }
+    .biografia p{
+        color: white;
+    }
+    
+}
+
+.biografia{
+    width: 100vh;
+    margin-bottom: 50px;
+    display: flex;
+    float: left;
+    color: #333;
+}
+
+.biografia p{
+    display: flex;
+    justify-content: center;
+    padding-left: 5vh;
+}
+
+.main-bio{
+    background-image: url(../image/discografia/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+    height: 100vh;
+    width: 100%;    
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.styled-table { 
+    border-collapse: collapse; 
+    margin: 25px 0; 
+    font-size: 1em; 
+    font-family: sans-serif;  
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); 
+    }
+
+.styled-table thead tr { 
+    background-color: #812575; 
+    color: #ffffff; 
+    text-align: middle;
+ }
+
+.styled-table th, .styled-table td { 
+    padding: 12px 15px; 
+}
+
+.styled-table tbody tr { 
+    border-bottom: 1px solid #dddddd; 
+} 
+
+.styled-table tbody tr:nth-of-type(even) { 
+    background-color: #f3f3f3; 
+} 
+
+.styled-table tbody tr:last-of-type { 
+    border-bottom: 2px solid #009879; 
+}
+
+.styled-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+.contacto-label{
+    font-family: cursive;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+.space-white{
+    width: 100%;
+}
+
+.contacto-btn{
+    width: 20vh;
+    height: 5vh;
+    font-size: 1rem;
+    font-family: cursive;
+    background-color: rgb(13, 238, 238);
+    border-radius: 10%;
+}

@@ -1,0 +1,45 @@
+
+.styled-table { 
+    margin-top: $tamanio50px;
+    color: $color-secundario;
+    border-collapse: collapse; 
+    margin: $tamanio20px 0; 
+    font-size: $tamaniofontprimario; 
+    font-family: sans-serif;  
+    box-shadow: 0 0 $tamanio20px $color-tabel-primario; 
+    height: $tamanio1oovh;
+    }
+
+.styled-table thead tr { 
+    background-color: $color-tabel-primario; 
+    color: $color-principal; 
+    text-align: middle;
+ }
+
+.styled-table th, .styled-table td { 
+    padding: 12px 15px; 
+}
+
+.styled-table tbody tr { 
+    border-bottom: $borderprimario solid $color-tabel-primario; 
+} 
+
+.styled-table tbody tr:nth-of-type(even) { 
+    background-color: rgb(209, 203, 203); 
+} 
+
+.styled-table tbody tr:last-of-type { 
+    border-bottom: $borderprimario solid $color-secundario; 
+}
+
+.styled-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+   @media screen and (max-width: 678px) {
+    .content-table{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,13 @@
+.portada{
+    margin-top: $tamanio50px;
+    margin-bottom: $tamanio50px;
+    .img-portada img{
+        width: $tamanio1oox100to;
+        border-radius: $tamanio50x100to;
+    }
+    .img-portada p{
+        margin-top: $tamanio50px;
+        margin-left: $tamanio20px;
+        color: $color-secundario;
+    }
+}
